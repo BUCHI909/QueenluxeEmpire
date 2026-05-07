@@ -1,0 +1,65 @@
+.queen-navbar {
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 15px 0;
+}
+
+.queen-brand {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #d4af37 !important;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.queen-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.75) !important;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.queen-link:hover {
+  color: #d4af37 !important;
+}
+
+.queen-social {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.queen-social.whatsapp {
+  background: #d4af37;
+  color: black;
+}
+
+.queen-social.tiktok {
+  background: #7b2cbf;
+  color: white;
+}
+
+.queen-social:hover {
+  transform: scale(1.1);
+}
+
+.queen-book-btn {
+  background: #d4af37;
+  color: black;
+  font-weight: 600;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.queen-book-btn:hover {
+  background: #f1c84b;
+  transform: scale(1.05);
+}

@@ -1,0 +1,38 @@
+.queen-whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  background: #25d366;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  z-index: 9999;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+  animation: pulse 1.6s infinite;
+}
+
+.queen-whatsapp-float:hover {
+  transform: scale(1.1);
+  background: #1ebe5d;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0px 0px 0px rgba(37, 211, 102, 0.6);
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow: 0px 0px 25px rgba(37, 211, 102, 0.55);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0px 0px 0px rgba(37, 211, 102, 0.6);
+  }
+}

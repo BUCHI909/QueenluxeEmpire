@@ -1,0 +1,57 @@
+.queen-preloader {
+  position: fixed;
+  inset: 0;
+  background: #0a0a0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+}
+
+.queen-loader-box {
+  text-align: center;
+}
+
+.loader-title {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.loader-subtitle {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.loader-line {
+  width: 220px;
+  height: 4px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.08);
+  margin: 25px auto 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.loader-line::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 100%;
+  background: #d4af37;
+  left: -80px;
+  animation: loaderMove 1.3s infinite linear;
+}
+
+@keyframes loaderMove {
+  from {
+    left: -80px;
+  }
+  to {
+    left: 100%;
+  }
+}

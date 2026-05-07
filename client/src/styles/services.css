@@ -1,0 +1,92 @@
+.queen-services {
+  padding: 110px 0;
+}
+
+.services-desc {
+  max-width: 650px;
+}
+
+.queen-service-card {
+  background: linear-gradient(
+    to bottom,
+    rgba(123, 44, 191, 0.22),
+    rgba(0, 0, 0, 0.9)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 35px 28px;
+  border-radius: 22px;
+  transition: 0.4s;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.queen-service-card::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: -120px;
+  width: 220px;
+  height: 220px;
+  background: rgba(212, 175, 55, 0.25);
+  filter: blur(80px);
+  border-radius: 50%;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.queen-service-card:hover::before {
+  opacity: 1;
+}
+
+.queen-service-card:hover {
+  transform: translateY(-12px);
+  border-color: rgba(212, 175, 55, 0.5);
+}
+
+.service-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #d4af37;
+  margin-bottom: 12px;
+  font-family: "Playfair Display", serif;
+}
+
+.service-text {
+  font-size: 14px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.service-book {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(212, 175, 55, 0.9);
+  transition: 0.3s;
+}
+
+.service-book:hover {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.queen-services {
+  padding: 110px 0;
+  background: #0a0a0f; /* force dark background */
+  color: white; /* force all text visible */
+}
+
+.queen-services .queen-title {
+  color: white;
+}
+
+.queen-services .queen-subtitle {
+  color: rgba(212, 175, 55, 0.9);
+}
+
+.queen-services .queen-text {
+  color: rgba(255, 255, 255, 0.75);
+}

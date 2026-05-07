@@ -1,0 +1,67 @@
+.queen-testimonials {
+  padding: 110px 0;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.95),
+    rgba(20, 10, 40, 0.95)
+  );
+  color: white;
+  position: relative;
+}
+
+.testimonials-desc {
+  max-width: 650px;
+}
+
+/* Review Card */
+.queen-review-card {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.95),
+    rgba(123, 44, 191, 0.18)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 35px 28px;
+  border-radius: 22px;
+  transition: 0.4s;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.queen-review-card {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+.queen-review-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(212, 175, 55, 0.5);
+}
+
+/* Stars */
+.queen-stars {
+  display: flex;
+  gap: 5px;
+  color: #d4af37;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+/* Review Text */
+.queen-review-text {
+  font-size: 14px;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.75);
+  font-style: italic;
+}
+
+/* Name */
+.queen-review-name {
+  margin-top: 18px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #d4af37;
+  font-family: "Playfair Display", serif;
+}
