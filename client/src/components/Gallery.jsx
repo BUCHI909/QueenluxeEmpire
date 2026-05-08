@@ -22,7 +22,7 @@ export default function Gallery() {
           <h2 className="queen-title">
             Beautiful <span className="gold-text">Transformations</span>
           </h2>
-          <p className="queen-text mt-3 mx-auto gallery-desc">
+          <p className="queen-text mt-3 mx-auto text-warning gallery-desc">
             Take a look at some of our luxury wig styling, revamping, and bridal
             installations done with elegance and perfection.
           </p>

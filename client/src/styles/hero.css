@@ -198,3 +198,55 @@
     opacity: 0.3;
   }
 }
+
+/* Buttons Wrapper */
+.queen-hero-buttons {
+  display: flex;
+  gap: 18px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+/* GOLD BUTTON */
+.queen-btn-gold {
+  background: linear-gradient(135deg, #d4af37, #ffcc4d);
+  color: #0b0016 !important;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 14px;
+  border: none;
+  box-shadow: 0px 12px 35px rgba(212, 175, 55, 0.35);
+  transition: 0.35s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Hover effect */
+.queen-btn-gold:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0px 18px 45px rgba(212, 175, 55, 0.55);
+  color: #0b0016 !important;
+}
+
+/* OUTLINE PURPLE BUTTON WITH GOLD TEXT */
+.queen-btn-outline {
+  background: rgba(123, 44, 191, 0.12);
+  border: 2px solid rgba(212, 175, 55, 0.75);
+  color: #d4af37 !important;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 14px;
+  transition: 0.35s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  backdrop-filter: blur(10px);
+}
+
+/* Hover effect */
+.queen-btn-outline:hover {
+  background: rgba(212, 175, 55, 0.15);
+  border-color: #d4af37;
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0px 15px 40px rgba(123, 44, 191, 0.35);
+  color: #ffffff !important;
+}

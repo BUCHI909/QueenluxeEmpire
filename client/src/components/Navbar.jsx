@@ -88,7 +88,7 @@ export default function Navbar() {
             </a>
 
             <a
-              href="#"
+              href="https://www.tiktok.com/@styledbyqueen_"
               target="_blank"
               rel="noreferrer"
               className="queen-social tiktok"
