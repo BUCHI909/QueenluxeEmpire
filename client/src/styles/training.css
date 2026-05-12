@@ -1,0 +1,230 @@
+/* training.css */
+
+.queen-training {
+  padding: 110px 0;
+  background: linear-gradient(135deg, #05010d, #120024, #2b0055, #090013);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.queen-training::before {
+  content: "";
+  position: absolute;
+  top: -250px;
+  left: -200px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(123, 44, 191, 0.35), transparent 70%);
+  filter: blur(80px);
+  z-index: 0;
+}
+
+.queen-training::after {
+  content: "";
+  position: absolute;
+  bottom: -250px;
+  right: -200px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(212, 175, 55, 0.25), transparent 70%);
+  filter: blur(80px);
+  z-index: 0;
+}
+
+.queen-training .container {
+  position: relative;
+  z-index: 2;
+}
+
+.queen-training-title {
+  font-size: 42px;
+  font-weight: 900;
+  font-family: "Playfair Display", serif;
+  color: #d4af37;
+  text-shadow: 0px 0px 20px rgba(212, 175, 55, 0.25);
+}
+
+.queen-training-subtitle {
+  max-width: 720px;
+  margin: 15px auto 0 auto;
+  font-size: 15px;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Training Cards */
+.queen-training-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  border-radius: 22px;
+  padding: 35px 28px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0px 14px 50px rgba(0, 0, 0, 0.6);
+  transition: 0.4s;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.queen-training-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(212, 175, 55, 0.45);
+}
+
+.queen-training-tag {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  background: rgba(212, 175, 55, 0.14);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  color: #d4af37;
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+/* Card Title */
+.training-card-title {
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  color: white;
+  line-height: 1.5;
+}
+
+.training-card-duration {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.training-card-duration span {
+  color: #d4af37;
+  font-weight: 800;
+}
+
+.training-card-price {
+  font-size: 26px;
+  font-weight: 900;
+  color: #d4af37;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  font-family: "Playfair Display", serif;
+}
+
+/* Includes list */
+.training-includes {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.training-includes li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+/* Form Box */
+.queen-training-form-box {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(212, 175, 55, 0.18);
+  border-radius: 22px;
+  padding: 45px 35px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0px 18px 55px rgba(0, 0, 0, 0.65);
+}
+
+.training-form-title {
+  font-size: 24px;
+  font-weight: 900;
+  color: #d4af37;
+  font-family: "Playfair Display", serif;
+}
+
+.training-form-subtitle {
+  font-size: 14px;
+  line-height: 1.8;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Inputs */
+.queen-training-input {
+  background: rgba(0, 0, 0, 0.65) !important;
+  border: 1px solid rgba(212, 175, 55, 0.18) !important;
+  color: white !important;
+  padding: 14px 15px;
+  border-radius: 14px;
+}
+
+.queen-training-input::placeholder {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.queen-training-input:focus {
+  border-color: rgba(212, 175, 55, 0.55) !important;
+  box-shadow: 0px 0px 15px rgba(212, 175, 55, 0.25) !important;
+}
+
+/* Fee Display Box */
+.queen-training-fee-box {
+  background: rgba(212, 175, 55, 0.1);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  padding: 18px;
+  border-radius: 16px;
+  color: white;
+}
+
+.queen-training-fee-box p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+
+.queen-training-fee-box p:last-child {
+  margin-bottom: 0;
+}
+
+.queen-training-fee-box span {
+  color: #d4af37;
+  font-weight: 900;
+}
+
+/* Submit Button */
+.queen-training-btn {
+  background: linear-gradient(135deg, #d4af37, #ffcc4d);
+  color: #0b0016 !important;
+  font-weight: 900;
+  padding: 15px 22px;
+  border-radius: 16px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.35s ease;
+  box-shadow: 0px 14px 40px rgba(212, 175, 55, 0.35);
+  font-size: 14px;
+}
+
+.queen-training-btn:hover {
+  background: linear-gradient(135deg, #7b2cbf, #3a0a63);
+  color: #ffffff !important;
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0px 20px 55px rgba(123, 44, 191, 0.55);
+}
+
+.queen-training-btn:active {
+  transform: scale(0.98);
+}
+
+.training-note {
+  font-size: 14px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}

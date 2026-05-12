@@ -63,6 +63,19 @@ export default function Navbar() {
               </Link>
             </li>
 
+            {/* ✅ TRAINING LINK ADDED HERE */}
+            <li className="nav-item">
+              <Link
+                to="training"
+                smooth={true}
+                duration={600}
+                offset={-80}
+                className="nav-link queen-link"
+              >
+                Training
+              </Link>
+            </li>
+
             <li className="nav-item">
               <Link
                 to="booking"

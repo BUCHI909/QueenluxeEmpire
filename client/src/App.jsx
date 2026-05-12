@@ -12,6 +12,7 @@ import Booking from "./components/Booking";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 import Footer from "./components/Footer";
 import ScrollTop from "./components/ScrollTop";
+import Training from "./components/Training"; 
 
 export default function App() {
   useEffect(() => {
@@ -26,10 +27,12 @@ export default function App() {
       <Services />
       <Gallery />
       <Testimonials />
+      <Training />
       <Booking />
       <Footer />
       <WhatsAppFloat />
       <ScrollTop />
+      
     </>
   );
 }
