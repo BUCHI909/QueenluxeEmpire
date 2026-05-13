@@ -1,0 +1,107 @@
+/* policy.css */
+
+.queen-policy {
+  padding: 110px 0;
+  background: linear-gradient(135deg, #05010d, #120024, #2b0055, #090013);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.queen-policy::before {
+  content: "";
+  position: absolute;
+  top: -250px;
+  left: -200px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(123, 44, 191, 0.35), transparent 70%);
+  filter: blur(80px);
+  z-index: 0;
+}
+
+.queen-policy::after {
+  content: "";
+  position: absolute;
+  bottom: -250px;
+  right: -200px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(212, 175, 55, 0.25), transparent 70%);
+  filter: blur(80px);
+  z-index: 0;
+}
+
+.queen-policy .container {
+  position: relative;
+  z-index: 2;
+}
+
+.queen-policy-title {
+  font-size: 42px;
+  font-weight: 900;
+  font-family: "Playfair Display", serif;
+  color: #d4af37;
+  text-shadow: 0px 0px 20px rgba(212, 175, 55, 0.25);
+}
+
+.queen-policy-subtitle {
+  max-width: 720px;
+  margin: 15px auto 0 auto;
+  font-size: 15px;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.queen-policy-box {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(212, 175, 55, 0.18);
+  border-radius: 22px;
+  padding: 45px 35px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0px 18px 55px rgba(0, 0, 0, 0.65);
+}
+
+.queen-policy-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.queen-policy-list li {
+  margin-bottom: 15px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.82);
+  padding-left: 28px;
+  position: relative;
+}
+
+.queen-policy-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #d4af37;
+  font-weight: 900;
+}
+
+.queen-policy-note {
+  margin-top: 25px;
+  padding: 15px 18px;
+  border-radius: 16px;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+}
+
+.queen-policy-closing {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 800;
+  color: #d4af37;
+  letter-spacing: 0.5px;
+  text-shadow: 0px 0px 18px rgba(212, 175, 55, 0.25);
+}

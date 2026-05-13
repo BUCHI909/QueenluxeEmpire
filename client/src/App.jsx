@@ -13,6 +13,7 @@ import WhatsAppFloat from "./components/WhatsAppFloat";
 import Footer from "./components/Footer";
 import ScrollTop from "./components/ScrollTop";
 import Training from "./components/Training"; 
+import Policy from "./components/Policy";
 
 export default function App() {
   useEffect(() => {
@@ -28,6 +29,7 @@ export default function App() {
       <Gallery />
       <Testimonials />
       <Training />
+      <Policy />
       <Booking />
       <Footer />
       <WhatsAppFloat />
