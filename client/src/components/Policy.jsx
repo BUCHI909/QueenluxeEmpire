@@ -1,7 +1,7 @@
 // Policy.jsx
 import React from "react";
 import { motion } from "framer-motion";
-import "..styles/policy.css";
+import "../styles/policy.css";
 
 export default function Policy() {
   const policies = [
