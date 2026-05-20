@@ -63,3 +63,32 @@
   background: #f1c84b;
   transform: scale(1.05);
 }
+
+
+.queen-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.brand-logo {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 6px rgba(212, 175, 55, 0.6));
+  transition: transform 0.3s ease;
+}
+
+.brand-logo:hover {
+  transform: scale(1.1);
+}
+/* optional: purple/gold theme hint */
+.queen-brand .brand-text {
+  color: #d4af37; /* gold */
+}
+
+.queen-brand .brand-text:first-child {
+  color: #6a0dad; /* purple */
+}
